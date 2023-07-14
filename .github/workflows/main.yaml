@@ -160,7 +160,6 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
-
           script: |
             cd taski
             # Выполняет pull образов с Docker Hub
