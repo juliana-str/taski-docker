@@ -7,7 +7,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', '1234')
 
 # DEBUG = os.getenv('DEBUG', 'False') == 'True'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['158.160.30.4', '127.0.0.1', 'localhost', 'taskieducation.hopto.org']
 
 # Application definition
 INSTALLED_APPS = [
